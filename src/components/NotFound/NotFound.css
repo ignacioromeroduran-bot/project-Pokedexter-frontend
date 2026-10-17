@@ -1,0 +1,44 @@
+.not-found {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 24px;
+  text-align: center;
+}
+
+.not-found__code {
+  margin: 0;
+  color: #d62828;
+  font-size: clamp(4rem, 14vw, 8rem);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.not-found__title {
+  margin: 18px 0 8px;
+  font-size: clamp(1.6rem, 5vw, 2.4rem);
+}
+
+.not-found__description {
+  max-width: 440px;
+  color: #656565;
+  line-height: 1.6;
+}
+
+.not-found__link {
+  margin-top: 12px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  background-color: #d62828;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.not-found__link:hover {
+  transform: translateY(-2px);
+  background-color: #ad1f1f;
+}

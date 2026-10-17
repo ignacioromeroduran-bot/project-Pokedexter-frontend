@@ -1,0 +1,17 @@
+.navigation {
+  display: flex;
+  gap: 24px;
+}
+
+.navigation a {
+  color: #4b4b4b;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+.navigation a:hover,
+.navigation a:focus-visible,
+.navigation a.active {
+  color: #d62828;
+}

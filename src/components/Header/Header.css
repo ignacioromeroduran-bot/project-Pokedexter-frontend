@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  min-height: 72px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header__logo {
+  color: #d62828;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (max-width: 520px) {
+  .header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px 6%;
+  }
+}
